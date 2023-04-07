@@ -8,7 +8,7 @@ const ContactOne = () => {
       icon: "fa-envelope",
       content: (
         <>
-          bigtech@gmail.com <br /> bigtechfunds@gmail.com
+          polygoncapital88@gmail.com <br /> polygonfunds@gmail.com
         </>
       ),
     },
@@ -41,7 +41,7 @@ const ContactOne = () => {
             <div className="section-title text-center mb-70">
               <span className="sub-title">Contact</span>
               <h2 className="title">
-                <span>Contact</span> Bigtech
+                <span>Contact</span> Polygon Capital
               </h2>
             </div>
           </div>

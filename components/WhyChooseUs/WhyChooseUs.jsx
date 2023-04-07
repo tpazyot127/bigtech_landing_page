@@ -170,7 +170,7 @@ const WhyChooseUs = () => {
             <div className="section-title text-center mb-50">
               <span className="sub-title">why Choose us </span>
               <h2 className="title">
-                Why You need contact to <span>bigtech</span>
+                Why You need contact to <span>Polygon Capital</span>
               </h2>
             </div>
           </div>

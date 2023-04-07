@@ -94,8 +94,9 @@ const HeaderOne = () => {
               <div className="menu-wrap">
                 <nav className={"menu-nav"}>
                   <div className="logo">
-                    <Link href={"/"}>
+                    <Link href={"/"} className="logo-items">
                       <img src={"/img/logo/logo.png"} alt="BigTech Logo" />
+                      <text className="logo-text">Polygon</text>
                     </Link>
                   </div>
 
@@ -134,9 +135,9 @@ const HeaderOne = () => {
                           About us
                         </Link>
                       </li>
-                      <li className={cn(hash == "about" && "active")}>
+                      <li className={cn(hash == "otc" && "active")}>
                         <Link
-                          href="#about"
+                          href="#otc"
                           className={"section-link"}
                           onClick={() => handleClickScroll("about")}
                         >
@@ -152,11 +153,11 @@ const HeaderOne = () => {
                           Sales
                         </Link>
                       </li> */}
-                      <li className={isActiveLink("#roadmap")}>
+                      <li className={isActiveLink("#market")}>
                         <Link
-                          href="#roadmap"
+                          href="#market"
                           className={"section-link"}
-                          onClick={() => handleClickScroll("roadmap")}
+                          onClick={() => handleClickScroll("market")}
                         >
                           Market Making
                         </Link>

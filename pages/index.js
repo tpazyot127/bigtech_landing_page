@@ -14,9 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Bigtech - Global digital asset
-          market maker and multi-stage
-          web3 investment firm</title>
+        <title>Polygon Capital - Venture capital funds</title>
         <meta name="description" content="" />
       </Head>
 
@@ -25,7 +23,7 @@ export default function Home() {
           {/* <Banner /> */}
           <WhoWeAre />
 
-          <TopPartners />
+          {/* <TopPartners /> */}
           <WhyChooseUs />
           {/* <Sales /> */}
 

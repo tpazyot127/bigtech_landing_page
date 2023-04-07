@@ -25,7 +25,7 @@ const WhoWeAre = () => {
                 </h2>
               </div>
               <p>
-                BIGTECH is the global digital asset market maker and multi-stage
+                Polygon Capital is the global digital asset market maker and multi-stage
                 web3 investment firm with offices in Singapore, Switzerland, the
                 British Virgin Islands, the United Arab Emirates, South Korea
                 and Hong Kong. The investment company is an affiliate of BTE,

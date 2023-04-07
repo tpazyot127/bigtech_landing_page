@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Bigtech - ICO & Crypto Landing Page Template</title>
+        <title>Polygon Capital - Venture capital funds</title>
         <meta name="description" content="" />
       </Head>
 

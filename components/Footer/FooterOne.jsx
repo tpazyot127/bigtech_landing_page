@@ -24,11 +24,12 @@ const FooterOne = () => {
                   data-wow-delay=".2s"
                 >
                   <Link href="/" className="f-logo">
-                    <img src={"/img/logo/logo.png"} alt="BigTech Logo" />
+                    <img className="logo-img"src={"/img/logo/logo.png"} alt="BigTech Logo" />
+                    <text className="logo-text">Polygon</text>
                   </Link>
                   <div className="footer-content">
                     <p>
-                      Bigtech labs is a venture capital funds and proprietary trading
+                      Polygon capital is a venture capital funds and proprietary trading
                       firms that engage in liquidity provision, investment and
                       taking of positions in derivatives.
                     </p>
@@ -141,7 +142,7 @@ const FooterOne = () => {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="copyright-text">
-                  <p>Copyright &copy; 2022. All Rights Reserved Bigtech</p>
+                  <p>Copyright &copy; 2023. All Rights Reserved Polygon Capital</p>
                 </div>
               </div>
               <div className="col-lg-6 d-none d-sm-block">

@@ -16,7 +16,7 @@ export default function HomeTwo() {
   return (
     <>
       <Head>
-        <title>Bigtech - ICO & Crypto Landing Page Template</title>
+        <title>Polygon Capital - venture capital funds</title>
         <meta name="description" content="" />
       </Head>
 
