@@ -11,37 +11,37 @@ const TeamOne = () => {
     {
       src: "/img/team/team_img02.png",
       name: "Eleanor Pena",
-      designation: "Head of Design",
+      designation: "Advisor",
     },
     {
       src: "/img/team/team_img03.png",
       name: "Bessie Cooper",
-      designation: "Vp People",
+      designation: "Head of Legal and Compliance",
     },
     {
       src: "/img/team/team_img04.png",
       name: "Darlene Robertson",
-      designation: "Product Manager",
+      designation: "Social Media Manager",
     },
     {
       src: "/img/team/team_img05.png",
       name: "Jacob Jones",
-      designation: "Marketer",
+      designation: "Research Lead",
     },
     {
       src: "/img/team/team_img06.png",
       name: "Courtney Henry",
-      designation: "Founder",
+      designation: "Portfolio Manager",
     },
     {
       src: "/img/team/team_img07.png",
       name: "Ronald Richards",
-      designation: "Account Manager",
+      designation: "Business Operations",
     },
     {
       src: "/img/team/team_img08.png",
       name: "Theresa Webb",
-      designation: "Founder & CO",
+      designation: "Liquid Markets Head of Hong Kong",
     },
   ];
 

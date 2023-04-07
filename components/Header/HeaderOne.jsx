@@ -134,13 +134,31 @@ const HeaderOne = () => {
                           About us
                         </Link>
                       </li>
-                      <li className={isActiveLink("#sales")}>
+                      <li className={cn(hash == "about" && "active")}>
+                        <Link
+                          href="#about"
+                          className={"section-link"}
+                          onClick={() => handleClickScroll("about")}
+                        >
+                          OTC Trading
+                        </Link>
+                      </li>
+                      {/* <li className={isActiveLink("#sales")}>
                         <Link
                           href="#sales"
                           className={"section-link"}
                           onClick={() => handleClickScroll("sales")}
                         >
                           Sales
+                        </Link>
+                      </li> */}
+                      <li className={isActiveLink("#roadmap")}>
+                        <Link
+                          href="#roadmap"
+                          className={"section-link"}
+                          onClick={() => handleClickScroll("roadmap")}
+                        >
+                          Market Making
                         </Link>
                       </li>
                       <li className={isActiveLink("#roadmap")}>
@@ -149,7 +167,7 @@ const HeaderOne = () => {
                           className={"section-link"}
                           onClick={() => handleClickScroll("roadmap")}
                         >
-                          Roadmap
+                          Investment
                         </Link>
                       </li>
                       <li className={"menu-item-has-children"}>

@@ -28,8 +28,9 @@ const FooterOne = () => {
                   </Link>
                   <div className="footer-content">
                     <p>
-                      A new way to make the payments easy, reliable and 100%
-                      secure. claritatem itamconse quat. Exerci tationulla
+                      Bigtech labs is a venture capital funds and proprietary trading
+                      firms that engage in liquidity provision, investment and
+                      taking of positions in derivatives.
                     </p>
                     <ul className="footer-social">
                       <li>
