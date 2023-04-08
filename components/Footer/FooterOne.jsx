@@ -24,14 +24,18 @@ const FooterOne = () => {
                   data-wow-delay=".2s"
                 >
                   <Link href="/" className="f-logo">
-                    <img className="logo-img"src={"/img/logo/logo.png"} alt="BigTech Logo" />
+                    <img
+                      className="logo-img"
+                      src={"/img/logo/logo.png"}
+                      alt="BigTech Logo"
+                    />
                     <text className="logo-text">Polygon</text>
                   </Link>
                   <div className="footer-content">
                     <p>
-                      Polygon capital is a venture capital funds and proprietary trading
-                      firms that engage in liquidity provision, investment and
-                      taking of positions in derivatives.
+                      Polygon capital is a venture capital funds and proprietary
+                      trading firms that engage in liquidity provision,
+                      investment and taking of positions in derivatives.
                     </p>
                     <ul className="footer-social">
                       <li>
@@ -40,7 +44,7 @@ const FooterOne = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="https://twitter.com/Polygon_Capital">
                           <i className="fab fa-twitter"></i>
                         </a>
                       </li>
@@ -117,13 +121,20 @@ const FooterOne = () => {
                   className="footer-widget wow fadeInUp"
                   data-wow-delay=".8s"
                 >
-                  <h4 className="fw-title">Subscribe Newsletter</h4>
+                  <h4 className="fw-title">Join us</h4>
                   <div className="footer-newsletter">
                     <p>
-                      Exerci tation ullamcorper suscipit lobortis nisl aliquip
-                      ex ea commodo
+                      Polygon Capital does not engage in management or custody
+                      of cryptocurrency assets or sovereign currencies and
+                      derivatives on behalf of third parties or investors or
+                      customers
+                      <br />
+                      Polygon Capital is not authorised, exempted or regulated
+                      by any regulatory authority. Polygon maas limited is in
+                      the process of regulatory review but does not have any
+                      current licensing or regulatory authorisation.
                     </p>
-                    <form action="#">
+                    {/* <form action="#">
                       <input
                         type="email"
                         placeholder="Info@gmail.com"
@@ -132,7 +143,7 @@ const FooterOne = () => {
                       <button type="submit">
                         <i className="fas fa-paper-plane"></i>
                       </button>
-                    </form>
+                    </form> */}
                   </div>
                 </div>
               </div>
@@ -142,7 +153,9 @@ const FooterOne = () => {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="copyright-text">
-                  <p>Copyright &copy; 2023. All Rights Reserved Polygon Capital</p>
+                  <p>
+                    Copyright &copy; 2020. All Rights Reserved Polygon Capital
+                  </p>
                 </div>
               </div>
               <div className="col-lg-6 d-none d-sm-block">
@@ -153,9 +166,6 @@ const FooterOne = () => {
                     </li>
                     <li>
                       <Link href="#">Privacy policy</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Login / Signup</Link>
                     </li>
                   </ul>
                 </div>

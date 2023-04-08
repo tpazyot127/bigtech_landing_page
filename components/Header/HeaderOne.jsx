@@ -135,7 +135,7 @@ const HeaderOne = () => {
                           About us
                         </Link>
                       </li>
-                      <li className={cn(hash == "otc" && "active")}>
+                      {/* <li className={cn(hash == "otc" && "active")}>
                         <Link
                           href="#otc"
                           className={"section-link"}
@@ -143,7 +143,7 @@ const HeaderOne = () => {
                         >
                           OTC Trading
                         </Link>
-                      </li>
+                      </li> */}
                       {/* <li className={isActiveLink("#sales")}>
                         <Link
                           href="#sales"
