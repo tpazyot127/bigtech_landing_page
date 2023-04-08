@@ -21,14 +21,12 @@ const WhoWeAre = () => {
               <div className="section-title mb-30">
                 <span className="sub-title">Who we are</span>
                 <h2 className="title">
-                  Global digital asset market maker and multi-stage web3
+                  Global digital asset market maker and venture capital funds
                 </h2>
               </div>
               <p>
-                Polygon Capital is the global digital asset market maker and multi-stage
-                web3 investment firm with offices in Singapore, Switzerland, the
-                British Virgin Islands, the United Arab Emirates, South Korea
-                and Hong Kong. The investment company is an affiliate of BTE,
+                Polygon Capital is the global digital asset market maker and Venture Capital funds
+                web3 investment firm with offices in Singapore, HongKong . The investment company is an affiliate of BTE,
                 one of the world's largest high-frequency cryptocurrency trading
                 entities, which trades spot and derivatives markets on over 40
                 top exchanges.
