@@ -38,17 +38,17 @@ const FooterOne = () => {
                       investment and taking of positions in derivatives.
                     </p>
                     <ul className="footer-social">
-                      <li>
+                      {/* <li>
                         <a href="#">
                           <i className="fab fa-youtube"></i>
                         </a>
-                      </li>
+                      </li> */}
                       <li>
                         <a href="https://twitter.com/Polygon_Capital">
                           <i className="fab fa-twitter"></i>
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="#">
                           <i className="fab fa-facebook-f"></i>
                         </a>
@@ -57,7 +57,7 @@ const FooterOne = () => {
                         <a href="#">
                           <i className="fab fa-skype"></i>
                         </a>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>
@@ -76,12 +76,12 @@ const FooterOne = () => {
                       <li>
                         <Link href="/">How it Works</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="/">Create</Link>
                       </li>
                       <li>
                         <Link href="/">Explore</Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link href="/">Terms & Services</Link>
                       </li>
